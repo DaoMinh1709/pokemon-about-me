@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minh – Pokémon Stats</title>
+  <style>
+    body {
+      background: #f0f0f0;
+      font-family: 'Press Start 2P', cursive;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      border: 4px solid black;
+      padding: 20px;
+      width: 350px;
+      text-align: center;
+      box-shadow: 5px 5px 0px black;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    .stat {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+    }
+    .bar {
+      background: #ddd;
+      height: 15px;
+      flex-grow: 1;
+      margin-left: 10px;
+      position: relative;
+    }
+    .fill {
+      background: green;
+      height: 100%;
+      width: 70%;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Minh</h1>
+    <p><em>Type: Student</em></p>
+    <div class="stat">
+      <span>HP</span>
+      <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+    </div>
+    <div class="stat">
+      <span>Attack</span>
+      <div class="bar"><div class="fill" style="width: 60%;"></div></div>
+    </div>
+    <div class="stat">
+      <span>Defense</span>
+      <div class="bar"><div class="fill" style="width: 50%;"></div></div>
+    </div>
+    <div class="stat">
+      <span>Speed</span>
+      <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+    </div>
+    <div class="stat">
+      <span>Special</span>
+      <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+    </div>
+  </div>
+</body>
+</html>
